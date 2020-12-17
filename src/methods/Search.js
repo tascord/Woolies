@@ -1,4 +1,5 @@
 const Fetch = require('node-fetch');
+const PartialProduct = require('../classes/PartialProduct');
 const Product = require('../classes/Product');
 
 /**
@@ -40,7 +41,7 @@ module.exports = (Query, Page = 1, PageSize = 24) => {
 
             resolve({
                 
-                products: Data.Products.filter(listing => listing.Products ? listing.Products[0] : false).map(listing => new Product(listing.Products[0])),
+                products: Data.Products.filter(listing => listing.Products ? listing.Products[0] : false).map(listing => new PartialProduct(listing.Products[0])),
                 next: () => module.exports(Query, Page++)
 
             });

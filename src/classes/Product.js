@@ -36,8 +36,8 @@ module.exports = class Product {
         this.aisle        = Data.Product.PrimaryCategory.Aisle;
         this.department   = Data.Product.PrimaryCategory.Department;
 
-        this.nutrition    = Data.Product.parse_nutritional_information(Data.NutritionalInformation);
-        this.ingredients  = Data.Product.parse_ingredients(Data.AdditionalAttributes.ingredients); 
+        this.nutrition    = Product.parse_nutritional_information(Data.NutritionalInformation);
+        this.ingredients  = Product.parse_ingredients(Data.AdditionalAttributes.ingredients); 
 
         this.raw          = Data;
 
@@ -60,6 +60,8 @@ module.exports = class Product {
      * @returns {Object} Parsed nutritional information
      */
     static parse_nutritional_information = Data => {
+
+        if(!data) return {};
 
         const Nutrition = {};
 
@@ -105,6 +107,8 @@ module.exports = class Product {
      */
     static parse_ingredients = Ingredients => {
 
+        if(!Ingredients) return [];
+        
         const List = [];
 
         let paren  = 0;

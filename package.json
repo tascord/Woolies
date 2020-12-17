@@ -2,10 +2,23 @@
   "name": "woolies",
   "version": "1.0.0",
   "description": "A Node.JS API for the Woolworths groceries store.",
-  "main": "index.js",
-  "author": "tascord",
-  "license": "ISC",
+  "main": "src/index.js",
   "dependencies": {
     "node-fetch": "^2.6.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tascord/Woolies.git"
+  },
+  "keywords": [
+    "Woolworths",
+    "API",
+    "Node.JS"
+  ],
+  "author": "tascord",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tascord/Woolies/issues"
+  },
+  "homepage": "https://github.com/tascord/Woolies#readme"
 }
