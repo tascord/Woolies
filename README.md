@@ -5,7 +5,7 @@
 "We are the fresh food people, supporting farmers!" and now a [node.js](http://npmjs.com/package/woolies) API!
 
 ### Official Documentation:
-Our documentation is coming soon to our [GitHub](https://github.com/tascord/Woolies) as the project remains in development.
+Our documentation has been released to our [GitHub](https://github.com/tascord/Woolies/blob/main/docs/Commands.md) showing how to use the package.
 
 ### Installation:
 - Ensure you have [NodeJS](https://nodejs.org/) installed on your computer.
