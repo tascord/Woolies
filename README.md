@@ -69,7 +69,7 @@ Woolworths.Search('Foundation Soy & Honey Sauce')
 ```
 
 ### Support:
-To receive support or ask for help relative to the Woolworths API join [CactiiveNetwork](https://discord.gg/NeqVuSy) for support and run `-ticket open`. 
+To receive support or ask for help relative to the Woolworths API join [CactiveNetwork](https://discord.gg/NeqVuSy) for support and run `-ticket open`. 
 
 ### Random quote from Woolworths, the fresh food people;
 > "We are on a mission to deliver the best in convenience, value and quality for our customers. We employ over 200,000 team members who serve over 29 million customers across our brands every week. We are a trusted business partner to thousands of local farmers and manufacturers."
